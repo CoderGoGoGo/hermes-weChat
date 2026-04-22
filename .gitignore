@@ -1,0 +1,25 @@
+# Secrets and local Hermes state
+.env
+*.env
+*.token
+*.secret
+
+# Hermes local state
+.hermes/
+**/.hermes/
+
+# Weixin account persistence
+weixin/accounts/
+**/weixin/accounts/
+*.json
+
+# QR artifacts / logs
+*.log
+*.qr
+*.png
+*.jpg
+*.jpeg
+*.webp
+
+# macOS
+.DS_Store
