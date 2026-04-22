@@ -1,5 +1,9 @@
 # hermes-weChat
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Last Commit](https://img.shields.io/github/last-commit/CoderGoGoGo/hermes-weChat)](https://github.com/CoderGoGoGo/hermes-weChat/commits/main)
+[![Stars](https://img.shields.io/github/stars/CoderGoGoGo/hermes-weChat?style=social)](https://github.com/CoderGoGoGo/hermes-weChat/stargazers)
+
 A public setup guide for connecting Hermes Agent to Weixin / WeChat using Hermes native support.
 
 一个公开说明仓库：记录如何使用 Hermes 原生能力接入微信 / WeChat，而不是依赖外部 OpenClaw Weixin 安装器。
@@ -123,6 +127,10 @@ Short version:
 
 如果你准备把自己的接入过程整理成博客或仓库，建议先做一遍脱敏检查。
 
+更完整的发布前检查见：
+
+- [docs/public-checklist.md](docs/public-checklist.md)
+
 ## Common FAQ
 
 ### 1. 为什么不用 OpenClaw 的 Weixin installer？
@@ -187,6 +195,7 @@ Short version:
 - `README.md` — public overview
 - `docs/weixin-setup.md` — detailed setup instructions
 - `docs/troubleshooting.md` — common failure cases
+- `docs/public-checklist.md` — pre-release desensitization checklist
 - `.gitignore` — protects against credential leaks
 - `LICENSE` — project license
 
